@@ -1,72 +1,15 @@
-// Este arquivo é um módulo JavaScript que exporta uma lista de produtos, representando livros disponíveis para compra. Cada produto é um objeto com propriedades como id, título, autor, resenha, preço e capa (URL da imagem). Esta lista pode ser importada e utilizada em outros componentes do aplicativo para exibir os produtos aos usuários, permitindo que eles naveguem pelos livros disponíveis e adicionem itens ao carrinho de compras. Não se limitem a esses livros sugeridos. Fiquem a vontade para aumentar esta base de dados de livros para serem apresentados pro usuário. Com uma variedade maior, vocẽs podeao filtrar por autor, por preço, por gênero, etc. E também podem adicionar mais informações sobre os livros, como número de páginas, editora, data de publicação, etc. Quanto mais informações vocês tiverem sobre os livros, melhor será a experiência do usuário ao navegar pelos produtos e tomar decisões de compra.
-export const produtos = [
-  {
-    id: 1,
-    titulo: 'Clean Code',
-    autor: 'Robert C. Martin',
-    resenha:
-      'Um livro sobre boas práticas de programação, escrita de código limpo e melhoria da qualidade de software.',
-    preco: 129.9,
-    capa: 'https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg',
-  },
-  {
-    id: 2,
-    titulo: 'The Pragmatic Programmer',
-    autor: 'Andrew Hunt e David Thomas',
-    resenha:
-      'Uma obra clássica sobre postura profissional, organização e boas práticas no desenvolvimento de software.',
-    preco: 149.9,
-    capa: 'https://covers.openlibrary.org/b/isbn/9780201616224-L.jpg',
-  },
-  {
-    id: 3,
-    titulo: 'Eloquent JavaScript',
-    autor: 'Marijn Haverbeke',
-    resenha:
-      'Uma introdução prática à linguagem JavaScript, com exemplos e conceitos fundamentais para desenvolvimento web.',
-    preco: 89.9,
-    capa: 'https://covers.openlibrary.org/b/isbn/9781593279509-L.jpg',
-  },
-  {
-    id: 4,
-    titulo: "You Don't Know JS Yet",
-    autor: 'Kyle Simpson',
-    resenha: 'Livro voltado ao aprofundamento dos principais conceitos da linguagem JavaScript.',
-    preco: 79.9,
-    capa: 'https://covers.openlibrary.org/b/isbn/9781091210092-L.jpg',
-  },
-  {
-    id: 5,
-    titulo: 'Design Patterns',
-    autor: 'Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides',
-    resenha:
-      'Livro clássico sobre padrões de projeto e soluções reutilizáveis para problemas comuns de software.',
-    preco: 159.9,
-    capa: 'https://covers.openlibrary.org/b/isbn/9780201633610-L.jpg',
-  },
-  {
-    id: 6,
-    titulo: 'Introduction to Algorithms',
-    autor: 'Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest e Clifford Stein',
-    resenha: 'Referência ampla sobre algoritmos, estruturas de dados e análise de complexidade.',
-    preco: 199.9,
-    capa: 'https://covers.openlibrary.org/b/isbn/9780262033848-L.jpg',
-  },
-  {
-    id: 7,
-    titulo: 'Refactoring',
-    autor: 'Martin Fowler',
-    resenha:
-      'Apresenta técnicas para melhorar a estrutura interna do código sem alterar seu comportamento externo.',
-    preco: 139.9,
-    capa: 'https://covers.openlibrary.org/b/isbn/9780134757599-L.jpg',
-  },
-  {
-    id: 8,
-    titulo: 'HTML and CSS',
-    autor: 'Jon Duckett',
-    resenha: 'Livro introdutório e visual sobre construção de páginas web com HTML e CSS.',
-    preco: 99.9,
-    capa: 'https://covers.openlibrary.org/b/isbn/9781118008188-L.jpg',
-  },
+const produtos = [
+  {id: 1, nome: 'Mchoose-A7-Ultra', desc: '', preco: 350 , categoria: 'Mouse', imagem: '/...'},
+  {id: 2, nome: 'Madlion 68he', desc: '', preco: 215 , categoria: 'Teclado', imagem: '/...'},
+  {id: 3, nome: 'Logitech H390', desc: '', preco: 180, categoria: 'Headset', imagem: '/...'},
+  {id: 4, nome: 'Mousepad ATK', desc: '', preco: 80, categoria: 'Mousepad', imagem: '/...'},
+  {id: 5, nome: 'Monitor Gamer ASUS TUF 25', desc: '', preco: 850, categoria: 'Monitor', imagem: '/...'},
+  {id: 5, nome: 'Monitor Gamer VA 34', desc: '', preco: 1800, categoria: 'Monitor', imagem: '/...'},
+  {id: 6, nome: 'Mouse Pad Gamer Exbom', desc: '', preco: 110, categoria: 'Mousepad', imagem: '/...'},
+  {id: 7, nome: 'Mouse Gamer Usb Led Rgb 1200dpi Exbom - MS-62', desc: '', preco: 20, categoria: 'Mouse', imagem: '/...'},
+  {id: 8, nome: 'PTKRWG75RD PCYes teclado mecanico Kirin 75% switch red', desc: '', preco: 216, categoria: 'Teclado', imagem: '/...'},
+  {id: 9, nome: 'Teclado Gamer Redragon Deimos K599-KNS – Mecânico 70% Compacto, Switch Marrom, RGB por Tecla, Hotswap, ABNT2, USB-C e Wireless 2.4GHz', desc: '', preco: 409,90, categoria: 'Teclado', imagem: '/...'},
+  {id: 10, nome: '', desc: '', preco: , categoria: '', imagem: '/...'},
+  {id: 11, nome: '', desc: '', preco: , categoria: '', imagem: '/...'},
+  {id: 12, nome: '', desc: '', preco: , categoria: '', imagem: '/...'};
 ]
