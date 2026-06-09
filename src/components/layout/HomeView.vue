@@ -3,9 +3,17 @@
 </script>
 
 <template>
-  
-</template>
+  <div class="conteiner">
+
+    <h1>Seja Bem vindo Ao Site Fabinho Periféricos!</h1>
+    <p>Compre os melhores periféricos do mercado aqui</p>
+
+  </div>
+  </template>
 
 <style scoped>
-
+  .conteiner{
+    margin:5vw;
+    
+   }
 </style>

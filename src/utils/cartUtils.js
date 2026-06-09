@@ -39,10 +39,10 @@ const carrinho = [
   },
 ]
 
-function addCarrinho(idLivro, quantidade) {
-  const livro = produtos.find((p) => p.id === idLivro)
+function addCarrinho(idProd, quantidade) {
+  const livro = produtos.find((p) => p.id === idProd)
   if (livro) {
-    const itemExistente = carrinho.find((item) => item.id === idLivro)
+    const itemExistente = carrinho.find((item) => item.id === idProd)
     if (itemExistente) {
       itemExistente.quantidade += quantidade
       itemExistente.precoTotal = itemExistente.quantidade * livro.preco

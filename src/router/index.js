@@ -22,7 +22,7 @@ const router = createRouter({
       path: '/carrinho',
       name: 'cart',
       component: CartPanel,
-    },
+    }
   ],
 })
 
