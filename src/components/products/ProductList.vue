@@ -4,13 +4,14 @@
 
   import ProductCard from './ProductCard.vue';
 import { ref } from 'vue';
+
 </script>
 
 <template>
       <div class="conteiner">
 
         <h1>Produtos</h1>
-        <ProdutoCard v-for="produto in listaProdutos" :key="produto.id" :id="produto.id" :nome="produto.nome" :preco="produto.preco" :categoria="produto.categoria" :imagem="produto.imagem"></ProdutoCard>
+        <ProductCard v-for="produto in listaProdutos" :key="produto.id" :id="produto.id" :nome="produto.nome" :preco="produto.preco" :categoria="produto.categoria" :imagem="produto.imagem"></ProductCard>
       </div>
 </template>
 
