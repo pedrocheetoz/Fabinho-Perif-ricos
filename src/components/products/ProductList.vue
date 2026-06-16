@@ -3,7 +3,6 @@
   import { listaProdutos } from '@/data/product';
 
   import ProductCard from './ProductCard.vue';
-import { ref } from 'vue';
 
 </script>
 

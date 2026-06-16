@@ -4,6 +4,7 @@
   import ButtonChild from '../ButtonChild.vue';
   import { formataPreco } from '@/utils/currencyUtils.js';
 import ProdutoDialog from '../ProdutoDialog.vue';
+import { addCarrinho } from '@/utils/cartUtils.js';
 
 const mostrarDialog = ref(false)
 </script>
@@ -17,6 +18,7 @@ const mostrarDialog = ref(false)
     <div>
     </div>
     <ButtonChild @clique="mostrarDialog = true">Editar</ButtonChild>
+    <ButtonChild @clique="addCarrinho">Adicionar ao carrinho</ButtonChild>
     <ProdutoDialog v-if="mostrarDialog" :nome="nome" :id="id"
       :categoria="categoria" :preco="preco" @fechar="mostrarDialog = false">
 
